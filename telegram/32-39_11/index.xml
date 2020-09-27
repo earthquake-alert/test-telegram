@@ -1,0 +1,32 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
+    <title>高頻度（地震火山）</title>
+    <subtitle>JMAXML publishing feed</subtitle>
+    <updated>2020-09-27T17:02:01+09:00</updated>
+    <id>urn:uuid:71738065-cd47-3c04-b4a5-e46f6ee5e89c</id>
+    <link rel="related" href="http://www.jma.go.jp/" />
+    <link rel="self" href="http://www.data.jma.go.jp/developer/xml/feed/eqvol.xml" />
+    <rights type="html">
+        <![CDATA[ <a href="http://www.jma.go.jp/jma/kishou/info/coment.html">利用規約</a>, <a href="http://www.jma.go.jp/jma/en/copyright.html">Terms of Use</a> ]]>
+    </rights>
+    <entry>
+        <title>震源・震度に関する情報</title>
+        <id>urn:uuid:896b4243-e221-302d-94b4-d7a3c44e939b</id>
+        <updated>2011-03-11T05:54:58Z</updated>
+        <author>
+            <name>気象庁</name>
+        </author>
+        <link type="application/xml" href="https://earthquake-alert.github.io/test-telegram/telegram/32-39_05/32-39_05_02_100831_VXSE53.xml" />
+        <content type="text">【震源・震度情報】１１日１４時４６分ころ、地震がありました。</content>
+    </entry>
+    <entry>
+        <title>震度速報</title>
+        <id>urn:uuid:896b4243-e221-302d-94b4-d7a3c44e939a</id>
+        <updated>2011-03-11T05:48:10Z</updated>
+        <author>
+            <name>気象庁</name>
+        </author>
+        <link type="application/xml" href="https://earthquake-alert.github.io/test-telegram/telegram/32-39_11/32-39_11_01_120615_VXSE51.xml" />
+        <content type="text">【震度速報】１１日１４時４６分ころ、地震による強い揺れを感じました。震度３以上が観測された地域をお知らせします。</content>
+    </entry>
+    <head />
+</feed>
