@@ -1,5 +1,17 @@
 # Test Telegram
 
+テスト用
+
+## Use test
+
+- 32-35_01
+- 32-35_04
+- 32-35_06
+- 32-39_05
+  - `https://earthquake-alert.github.io/test-telegram/telegram/32-39_05/index.xml`
+- 32-39_11
+  - `https://earthquake-alert.github.io/test-telegram/telegram/32-39_11/index.xml`
+
 ## Tree
 
 - telegram
