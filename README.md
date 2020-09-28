@@ -58,6 +58,19 @@
     - `32-39_11_01_120615_VXSE51`: #11①震度速報
     - `32-39_11_05_120615_VXSE53`: #11⑤震源・震度に関する情報（巨大地震）
 
+2011以下の震度速報には、
+
+```xml
+<Comments>
+  <ForecastComment codeType="固定付加文">
+    <Text>今後の情報に注意してください。</Text>
+    <Code>0217</Code>
+  </ForecastComment>
+</Comments>
+```
+
+を追加しています。
+
 ## Licence
 
 - サンプルデータ

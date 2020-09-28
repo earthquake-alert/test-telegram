@@ -20,19 +20,41 @@
       <Text>２５日１６時１５分ころ、地震による強い揺れを感じました。震度３以上が観測された地域をお知らせします。</Text>
       <Information type="震度速報">
         <Item>
-          <Kind><Name>震度４</Name></Kind>
+          <Kind>
+            <Name>震度４</Name>
+          </Kind>
           <Areas codeType="地震情報／細分区域">
-            <Area><Name>宮崎県南部平野部</Name><Code>762</Code></Area>
-            <Area><Name>鹿児島県大隅</Name><Code>771</Code></Area>
-            <Area><Name>鹿児島県種子島</Name><Code>776</Code></Area>
+            <Area>
+              <Name>宮崎県南部平野部</Name>
+              <Code>762</Code>
+            </Area>
+            <Area>
+              <Name>鹿児島県大隅</Name>
+              <Code>771</Code>
+            </Area>
+            <Area>
+              <Name>鹿児島県種子島</Name>
+              <Code>776</Code>
+            </Area>
           </Areas>
         </Item>
         <Item>
-          <Kind><Name>震度３</Name></Kind>
+          <Kind>
+            <Name>震度３</Name>
+          </Kind>
           <Areas codeType="地震情報／細分区域">
-            <Area><Name>宮崎県南部山沿い</Name><Code>763</Code></Area>
-            <Area><Name>鹿児島県薩摩</Name><Code>770</Code></Area>
-            <Area><Name>鹿児島県屋久島</Name><Code>777</Code></Area>
+            <Area>
+              <Name>宮崎県南部山沿い</Name>
+              <Code>763</Code>
+            </Area>
+            <Area>
+              <Name>鹿児島県薩摩</Name>
+              <Code>770</Code>
+            </Area>
+            <Area>
+              <Name>鹿児島県屋久島</Name>
+              <Code>777</Code>
+            </Area>
           </Areas>
         </Item>
       </Information>
@@ -50,19 +72,49 @@
           <Name>宮崎県</Name>
           <Code>45</Code>
           <MaxInt>4</MaxInt>
-          <Area><Name>宮崎県南部平野部</Name><Code>762</Code><MaxInt>4</MaxInt></Area>
-          <Area><Name>宮崎県南部山沿い</Name><Code>763</Code><MaxInt>3</MaxInt></Area>
+          <Area>
+            <Name>宮崎県南部平野部</Name>
+            <Code>762</Code>
+            <MaxInt>4</MaxInt>
+          </Area>
+          <Area>
+            <Name>宮崎県南部山沿い</Name>
+            <Code>763</Code>
+            <MaxInt>3</MaxInt>
+          </Area>
         </Pref>
         <Pref>
           <Name>鹿児島県</Name>
           <Code>46</Code>
           <MaxInt>4</MaxInt>
-          <Area><Name>鹿児島県大隅</Name><Code>771</Code><MaxInt>4</MaxInt></Area>
-          <Area><Name>鹿児島県種子島</Name><Code>776</Code><MaxInt>4</MaxInt></Area>
-          <Area><Name>鹿児島県薩摩</Name><Code>770</Code><MaxInt>3</MaxInt></Area>
-          <Area><Name>鹿児島県屋久島</Name><Code>777</Code><MaxInt>3</MaxInt></Area>
+          <Area>
+            <Name>鹿児島県大隅</Name>
+            <Code>771</Code>
+            <MaxInt>4</MaxInt>
+          </Area>
+          <Area>
+            <Name>鹿児島県種子島</Name>
+            <Code>776</Code>
+            <MaxInt>4</MaxInt>
+          </Area>
+          <Area>
+            <Name>鹿児島県薩摩</Name>
+            <Code>770</Code>
+            <MaxInt>3</MaxInt>
+          </Area>
+          <Area>
+            <Name>鹿児島県屋久島</Name>
+            <Code>777</Code>
+            <MaxInt>3</MaxInt>
+          </Area>
         </Pref>
       </Observation>
     </Intensity>
+    <Comments>
+      <ForecastComment codeType="固定付加文">
+        <Text>今後の情報に注意してください。</Text>
+        <Code>0217</Code>
+      </ForecastComment>
+    </Comments>
   </Body>
 </Report>
